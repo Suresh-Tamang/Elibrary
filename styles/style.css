@@ -4,22 +4,40 @@ body {
 
 .heading {
     width: auto;
-    height: 100px;
+    height: 60px;
     border: 1px solid black;
+    display: inline-block;
+    display: flex;
+    background-color: gray;
+
 }
 
 .logo {
-    background-image: ;
+    background-image: url(img/logo.png);
 }
 
-.menu ul {
-    float: left;
+.menu {
+    margin-left: 50%;
+    position: relative;
 }
 
 .menu ul li {
     list-style-type: none;
+    float: right;
+    padding-left: 10px;
 }
 
 .menu ul li a {
     text-decoration: none;
+}
+
+.body {
+    height: 500px;
+    width: auto;
+    background-color: gainsboro;
+    background-image: url(img/backgrou-topI.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }

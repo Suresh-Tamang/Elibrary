@@ -64,10 +64,11 @@ body {
     border: none;
     border-radius: 19px;
 }
-.homebody{
+
+.homebody {
     width: 100%;
     height: 620px;
     border: none;
-    background-image: url(img/backgrou-topI.jpg);
+    background-image: url(img/backgrou-top.jpg);
     background-size: cover;
 }
